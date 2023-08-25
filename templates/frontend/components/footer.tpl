@@ -13,7 +13,7 @@
  *}
 
   {* overide brand image with clips logo *}
-  {assign var=brandImage value="plugins/themes/bootstrap3JournalsUc/templates/images/clips_brand.png"}
+  {assign var=brandImage value="plugins/themes/bootstrap3JournalsUC/templates/images/clips_brand.png"}
 	</main>
 
 	{* Sidebars *}
