@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file plugins/themes/default/BootstrapThreeJournalsUcPlugin.inc.php
+ * @file plugins/themes/default/BootstrapThreeJournalsUcPlugin.php
  *
  * Copyright (c) 2014-2016 Simon Fraser University Library
  * Copyright (c) 2003-2016 John Willinsky
@@ -13,7 +13,9 @@
  *
  * @brief Default theme
  */
-import('lib.pkp.classes.plugins.ThemePlugin');
+namespace APP\plugins\themes\bootstrap3JournalsUc;
+
+use PKP\plugins\ThemePlugin;
 
 class BootstrapThreeJournalsUcPlugin extends ThemePlugin {
 	/**
